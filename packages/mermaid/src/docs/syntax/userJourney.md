@@ -1,22 +1,22 @@
-# User Journey Diagram
+＃用户旅程图
 
-> User journeys describe at a high level of detail exactly what steps different users take to complete a specific task within a system, application or website. This technique shows the current (as-is) user workflow, and reveals areas of improvement for the to-be workflow. (Wikipedia)
+>用户旅程在高水平的详细信息中描述了不同用户在系统，（AS-is）（（a），并揭示了对工作流程的改进领域。，并揭示了对工作流程的改进领域。）
 
-Mermaid can render user journey diagrams:
+美人鱼可以渲染用户旅程图：
 
-```mermaid-example
-journey
-    title My working day
-    section Go to work
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
-```
+``美人鱼例子
+旅行
+    标题我的工作日dfsdfsdfsd
+    部分上班
+      做茶：5：我
+      上楼：3：我
+      做工作：1：我，猫
+    部分回家
+      下楼：5：我
+      坐下：5：我
+````````' '''
 
-Each user journey is split into sections, these describe the part of the task
-the user is trying to complete.
+每个用户旅程都分为各节，这些描述了任务的一部分
+用户正在尝试完成。
 
-Tasks syntax is `Task name: <score>: <comma separated list of actors>`
+
